@@ -1,12 +1,10 @@
-import Routing from "./Routing/index"
-import Navigation from "./Routing/Navigation";
+import Collab from "./Collab"
 
 function App() {
   return (
     <div className="App">
       <header className="App-Header">
-      <Navigation />
-      <Routing />
+        <Collab />
       </header>
     </div>
   )
